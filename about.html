@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <link rel="stylesheet" href="nav-bar.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Landing Page"
+    />
+    <!--=============== REMIX DE ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--=============== FAVICONS ===============-->
+    <link
+      rel="choco2-touch-icon"
+      sizes="180x180"
+      href=""
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://i.ibb.co.com/QvQp3R0/au.webp"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://i.ibb.co.com/QvQp3R0/au.webp"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Didi-Web</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo"> Didi<span>-Web</span> </a>
+
+        <div class="topnav" id="myTopnav">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">About [Masih Gw Buat]</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contact [Masih Gw Buat]</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+          </li>
+          <i class="fa fa-bars"></i>
+            </li>
+          </ul>
+          </div>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-5-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home">
+        <div class="home__shape-small"></div>
+        <div class="home__shape-big"></div>
+
+        <div class="home__container container">
+          <div class="home__data">
+            <h1 class="home__title">
+                <center>
+              <span>About</span>
+              <img src="https://i.ibb.co.com/vZcLn7X/Freya-JKT48-4.jpg" style="width:200px">
+            </h1>
+            <p class="home__description">
+              Hi saya Didi<br />Hobi Ngoding. 
+              <br />
+              Kalo gabut ya domain web, Saya Juga Fans JKT
+            </p>
+        </center>
+            <a href="index.html" class="home__button"> Page </a>
+          </div>
+        <!--=============== FOOTER ===============-->
+        <!-- <div id="footer">
+          <br>
+          <p>&copy; Website Designed by <a href="https://github.com/souzx17">Vinicius</a></p>
+        </div> -->
+      </section>
+    </main>
+
+    <!--=============== GSAP ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>
